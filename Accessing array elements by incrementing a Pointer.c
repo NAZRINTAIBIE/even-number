@@ -1,7 +1,9 @@
+#include <stdio.h>
+
 const int MAX = 3;  
 int main()
 {
-	
+
 	int var[] = {100, 200, 300};
     int i, *ptr;
     ptr = var;
@@ -10,11 +12,8 @@ int main()
     {
         printf("\n\n\nAddress of var[%d] = %x ", i, ptr);
         printf("\nValue of var[%d] = %d ", i, *ptr);
-
-       
         ptr++;
     }
-	printf("\n\n\t\t\tCoding is Fun !\n\n\n");
     return 0;
 }
 
